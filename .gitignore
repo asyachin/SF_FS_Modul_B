@@ -130,11 +130,15 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.telegrambot/
+.pass_data/
 env/
+telegabot/
 venv/
 ENV/
 env.bak/
 venv.bak/
+
 
 # Spyder project settings
 .spyderproject
