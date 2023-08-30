@@ -1,7 +1,7 @@
 import telebot
 import os
 from dotenv import load_dotenv
-from url_config import CurrencyConverter
+from extensions import CurrencyConverter
 
 cross_rate = CurrencyConverter()
 
@@ -40,7 +40,7 @@ def get_target_currency(message):
 def get_amount(message):
     try:
         cross_rate.set_amount(message.text)
-        bot.reply_to(message, f"Exchange rate of {cross_rate.get_amount()} {cross_rate.get_base_currency()} is {cross_rate.get_currency_rate()['result']}{cross_rate.get_target_currency()}")
+        bot.reply_to(message, f"Exchange rate of {cross_rate.get_amount()} {cross_rate.get_base_currency()} is {cross_rate.get_currency_rate()['result']} {cross_rate.get_target_currency()}")
     except ValueError as e:
         bot.reply_to(message, f"Invalid currency. Try again. {e}")
         
