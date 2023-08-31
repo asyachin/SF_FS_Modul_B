@@ -130,7 +130,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
-.telegrambot/
+.tlgbot/
 .pass_data/
 env/
 telegabot/
