@@ -25,15 +25,14 @@ importlib-metadata==6.8.0
 ipykernel==6.25.1
 ipython==8.12.2
 jedi==0.19.0
-jupyter_client==8.3.0
-jupyter_core==5.3.1
+jupyter-client==8.3.0
+jupyter-core==5.3.1
 matplotlib-inline==0.1.6
 nest-asyncio==1.5.7
 packaging==23.1
 parso==0.8.3
 pexpect==4.8.0
 pickleshare==0.7.5
-pkg_resources==0.0.0
 platformdirs==3.10.0
 prompt-toolkit==3.0.39
 psutil==5.9.5
@@ -45,7 +44,7 @@ pyinstaller-hooks-contrib==2023.7
 pyparsing==3.1.1
 pyTelegramBotAPI==4.13.0
 python-dateutil==2.8.2
-python-dotenv @ git+https://github.com/theskumar/python-dotenv.git@3ffcef60d10813b72ecf85d5941d51b0207cd40e
+python-dotenv==1.0.0
 python-telegram-bot==20.4
 pyzmq==25.1.1
 requests==2.31.0
@@ -56,7 +55,7 @@ telebot==0.0.5
 telegram==0.0.1
 tornado==6.3.3
 traitlets==5.9.0
-typing_extensions==4.7.1
+typing-extensions==4.7.1
 urllib3==2.0.4
 wcwidth==0.2.6
 whichcraft==0.6.1
