@@ -50,5 +50,5 @@ def values_message(message):
     av_currencies = "\n".join([f"{key} : {value}" for key, value in cross_rate.available_currencies.items()])
     bot.reply_to(message, f"Available currencies:\n {av_currencies}")
 
-bot.polling()
+bot.polling(none_stop=True)
 
